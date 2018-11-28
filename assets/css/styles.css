@@ -75,6 +75,7 @@ h6 {
 .latest .featured .summary {
   margin-bottom: 30px;
   color: #778492;
+  text-align: center;
 }
 .latest .featured img {
   margin-bottom: 30px;
@@ -147,15 +148,6 @@ h6 {
   color: #b0b7bf;
   font-weight: 500;
 }
-/* Language Section */
-.languages .item .title {
-  color: #778492;
-}
-.languages .item .level {
-  color: #999999;
-}
-
-
 /* ======= Footer ======= */
 .footer {
   background: #32383e;
