@@ -303,10 +303,6 @@ iframe {
 .experience .item .title .place a:hover {
   color: #666666;
 }
-.experience .item .title .year {
-  color: #999999;
-  font-weight: normal;
-}
 /* Git section */
 .ghfeed {
   height: 600px;
