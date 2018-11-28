@@ -11,16 +11,20 @@
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-
+  </head>
   <body>
     <!-- ******HEADER****** -->
     <header class="header">
       <div class="container">
-        <img class="profile-image pull-left" src="assets/images/a.png" alt="Oscar Forero">
-        <div class="profile-content text-center">
-          <h1>Oscar Forero</h1>
-          <h2>Full Stack Web Developer</h2>
-        </div><!--//profile-->
+        <div class="row">
+          <div class="col-sm-6">
+            <img class="profile-image pull-left" src="assets/images/a.png" alt="Oscar Forero">
+          </div>
+          <div class="profile-content col-sm-6">
+            <h1>Oscar Forero</h1>
+            <h1>Full Stack Web Developer</h1>
+          </div><!--//profile-->
+        </div>
       </div><!--//container-->
     </header><!--//header-->
     <div class="container sections-wrapper">
@@ -38,29 +42,26 @@
             <div class="section-inner">
               <h2 class="heading">Projectos</h2>
               <div class="content">
-
                 <div class="item featured text-center">
                   <h3 class="title">Futuro projecto juntos!</h3>
                   <p class="summary">Un App, una aplicación web, lo que tu prefieras.</p>
                   <div class="featured-image">
                     <img class="project-image" src="assets/images/projects/a1.jpg" alt="project name" />
                     <div class="desc text-left">
-                        <p>Hagamos una app. Seguro tendremos muy buenas ideas juntos. Un juego, una red social, app para hacer deporte, e-market, etc. Lo que quieras!!!</p>
-                        <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                      <p>Hagamos una app. Seguro tendremos muy buenas ideas juntos. Un juego, una red social, app para hacer deporte, e-market, etc. Lo que quieras!!!</p>
+                      <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
                     </div><!--//desc-->
-                </div><!--//item-->
-
-                <hr class="divider" />
-                <h3 class="title">Otro projecto</h3>
-                <p class="summary">Este es otro projecto que aún no he hecho. Pero, lo haré!</p>
-                <div class="featured-image">
-                  <img class="project-image" src="assets/images/projects/2.jpeg" alt="project name" />
-                  <div class="desc text-left">
+                  </div><!--//item-->
+                  <hr class="divider" />
+                  <h3 class="title">Otro projecto</h3>
+                  <p class="summary">Este es otro projecto que aún no he hecho. Pero, lo haré!</p>
+                  <div class="featured-image">
+                    <img class="project-image" src="assets/images/projects/2.jpeg" alt="project name" />
+                    <div class="desc text-left">
                       <p>Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
-                  </div><!--//desc-->
+                    </div><!--//desc-->
+                  </div><!--//featured-image-->
                 </div><!--//item-->
-
-
               </div><!--//content-->
             </div><!--//section-inner-->
           </section><!--//section-->
@@ -83,7 +84,6 @@
               </div><!--//content-->
             </div><!--//section-inner-->
           </section><!--//section-->
-
         </div><!--//primary-->
         <div class="secondary col-md-4 col-sm-12 col-xs-12">
           <aside class="info aside section">
@@ -99,68 +99,60 @@
               </div><!--//content-->
             </div><!--//section-inner-->
           </aside><!--//aside-->
-
           <aside class="skills aside section">
             <div class="section-inner">
               <h2 class="heading">Habilidades</h2>
               <div class="content">
-
-                  <div class="skillset">
-
-                    <div class="item">
-                      <h3 class="level-title">Javascript &amp; jQuery - Pro (80%) </h3>
-                    </div><!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS - Pro (80%)</h3>
-                    </div><!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">Ruby on RailsPro - Experto (100%)</h3>
-                    </div><!--//item-->
-                  </div>
+                <div class="skillset">
+                  <div class="item">
+                    <h3 class="level-title">Javascript &amp; jQuery - Pro (80%) </h3>
+                  </div><!--//item-->
+                  <div class="item">
+                    <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS - Pro (80%)</h3>
+                  </div><!--//item-->
+                  <div class="item">
+                    <h3 class="level-title">Ruby on RailsPro - Experto (100%)</h3>
+                  </div><!--//item-->
+                </div>
               </div><!--//content-->
-          </div><!--//section-inner-->
-        </aside><!--//section-->
-
-        <aside class="education aside section">
-            <div class="section-inner">
-                <h2 class="heading">Formación Académica:</h2>
-                <div class="content">
-                    <div class="item">
-                        <h3 class="title">Administración de Empresas</h3>
-                        <h4 class="university">Universidad de los Andes<span class="year">(2015)</span></h4>
-                    </div><!--//item-->
-                </div><!--//content-->
             </div><!--//section-inner-->
-        </aside><!--//section-->
-
-        <aside class="languages aside section">
+          </aside><!--//section-->
+          <aside class="education aside section">
             <div class="section-inner">
-                <h2 class="heading">Idiomas: </h2>
-                <div class="content">
-                    <ul class="list-unstyled">
-                        <li class="item">
-                            <span class="title"><strong>Español:</strong></span>
-                            <span class="level">Idioma nativo</span>
-                        </li><!--//item-->
-                        <li class="item">
-                            <span class="title"><strong>Inglés:</strong></span>
-                            <span class="level">B2</span>
-                        </li><!--//item-->
-                    </ul>
-                </div><!--//content-->
+              <h2 class="heading">Formación Académica:</h2>
+              <div class="content">
+                <div class="item">
+                  <h3 class="title">Administración de Empresas</h3>
+                  <h4 class="university">Universidad de los Andes<span class="year">(2015)</span></h4>
+                </div><!--//item-->
+              </div><!--//content-->
             </div><!--//section-inner-->
-        </aside><!--//section-->
+          </aside><!--//section-->
+          <aside class="languages aside section">
+            <div class="section-inner">
+              <h2 class="heading">Idiomas: </h2>
+              <div class="content">
+                <ul class="list-unstyled">
+                  <li class="item">
+                    <span class="title"><strong>Español:</strong></span>
+                    <span class="level">Idioma nativo</span>
+                  </li><!--//item-->
+                  <li class="item">
+                    <span class="title"><strong>Inglés:</strong></span>
+                    <span class="level">B2</span>
+                  </li><!--//item-->
+                </ul>
+              </div><!--//content-->
+            </div><!--//section-inner-->
+          </aside><!--//section-->
         </div><!--//secondary-->
       </div><!--//row-->
     </div><!--//masonry-->
-
     <!-- ******FOOTER****** -->
     <footer class="footer">
-        <div class="container text-center">
-                <small>Oscar Forero</small>
-        </div><!--//container-->
+      <div class="container text-center">
+        <small>Oscar Forero</small>
+      </div><!--//container-->
     </footer><!--//footer-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
